@@ -5,7 +5,7 @@
  */
 $(document).ready(function () {
     //alert('a');
-    $('#memosliderv1').mehmetkurt({
+    $('#ottomanslider').ottomanslider({
         padding: 10,
         copyTitle: true
     });
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 /* */
 (function ($) {
-    $.fn.mehmetkurt = function (options) {
+    $.fn.ottomanslider = function (options) {
 
         var defaults = {
             caret: 'bigcaret',
