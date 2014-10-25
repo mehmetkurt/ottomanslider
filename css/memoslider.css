@@ -1,0 +1,137 @@
+﻿
+.banner-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    width:1024px;
+}
+
+    .banner-wrapper::after,
+    .banner-wrapper:after {
+        content: ' ';
+        float: none;
+        clear: both;
+    }
+
+    .banner-wrapper a {
+        text-decoration: none;
+    }
+
+    .banner-wrapper .main-image {
+        min-height: 350px;
+        background-color: rgb(255, 255, 255);
+        background-image: url(../img/default_l.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-wrapper .thumbs {
+        padding: 0;
+        height: 55px;
+    }
+
+        .banner-wrapper .thumbs .thumb {
+            float: left;
+            width: 20%;
+            height: 55px;
+            text-align: center;
+            position: relative;
+            background-color: transparent;
+            background-position: left 35px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+
+
+.thumb .button {
+    display: block;
+    color: #fff;
+    line-height: 55px;
+}
+
+.t1 .button {
+    background: #051965;
+}
+
+.t2 .button {
+    background: #134A5E;
+}
+
+.t3 .button {
+    background: #362237;
+}
+
+.t4 .button {
+    background: #252C14;
+}
+
+.t5 .button {
+    background: #4A4C48;
+}
+
+.banner-wrapper .thumbs .thumb:hover .menu {
+    display: block;
+}
+
+.banner-wrapper .thumbs .thumb .menu {
+    position: absolute;
+    bottom: 55px;
+    display: none;
+    background-color: rgba(0,3,101, 0.80);
+    color: rgb(255, 255, 255);
+    z-index: 999;
+    padding: 10px;
+}
+
+    .banner-wrapper .thumbs .thumb .menu h5 {
+        color: rgb(255, 255, 255);
+        text-align: left;
+        font-weight:bold;
+        font-size:14px;
+    }
+
+    .banner-wrapper .thumbs .thumb .menu ul {
+        position: relative;
+        display: block;
+        z-index: 9999;
+        margin-left: 10px;
+    }
+
+        .banner-wrapper .thumbs .thumb .menu ul li {
+            color: rgb(255,255,255);
+            text-align: left;
+            padding: 5px 0;
+        }
+
+            .banner-wrapper .thumbs .thumb .menu ul li a {
+                color: rgb(255,255,255);
+            }
+
+                .banner-wrapper .thumbs .thumb .menu ul li a:hover {
+                    border-left: 3px solid rgb(255, 255, 255);
+                    padding-left: 15px;
+                }
+
+
+.banner-wrapper .thumbs .t1 .menu {
+    background-color: rgba(0,25,101, 0.80);
+}
+
+.banner-wrapper .thumbs .t2 .menu {
+    background-color: rgba(0,74,94, 0.60);
+}
+
+.banner-wrapper .thumbs .t3 .menu {
+    background-color: rgba(54,34,54, 0.80);
+}
+
+.banner-wrapper .thumbs .t4 .menu {
+    background-color: rgba(36,43,19, 0.80);
+}
+
+.banner-wrapper .thumbs .t5 .menu {
+    background-color: rgba(4,4,4, 0.60);
+}

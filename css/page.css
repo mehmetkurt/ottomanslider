@@ -1,0 +1,9 @@
+﻿.information {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.information a {
+   color:#ff6a00;
+   text-decoration:none;
+}
