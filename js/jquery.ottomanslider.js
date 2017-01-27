@@ -1,6 +1,6 @@
 ﻿/* MEHMET KURT - 2013 - Telif Hakkı falan yok :) 
- * info@mehmetkurt.com.tr
- * http://www.mehmetkurt.com.tr
+ * mehmet.kurt@outlook.com
+ * http://www.codeislife.net
  * 
  */
 $(document).ready(function () {
